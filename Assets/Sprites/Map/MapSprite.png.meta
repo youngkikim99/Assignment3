@@ -1,25 +1,28 @@
 fileFormatVersion: 2
-guid: 471674117d9ad1c4bb8cbd5e53cecbe6
+guid: f2664575c2edba1409c171cb00f5fa1f
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: 7890571128955026908
-    second: Map_EndCorner
+    second: MapEndCorner
   - first:
       213: 5733074466261285341
-    second: Map_EndWall
+    second: MapPelletNorm
   - first:
       213: -2931400723382146764
-    second: Map_Corner
+    second: MapEndWall
   - first:
       213: -8004348877590772866
-    second: Map_Wall
+    second: MapCorner
   - first:
       213: 7917316285364708128
-    second: Map_Blank
+    second: MapPelletPower
   - first:
       213: -560071464164187118
-    second: Map_TLink
+    second: MapWall
+  - first:
+      213: 8451111959673057215
+    second: MapTLink
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -86,7 +89,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -98,7 +101,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -109,11 +112,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Map_EndCorner
+      name: MapEndCorner
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 1024
         width: 512
         height: 512
       alignment: 0
@@ -130,11 +133,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Map_EndWall
+      name: MapPelletNorm
       rect:
         serializedVersion: 2
         x: 512
-        y: 0
+        y: 1024
         width: 512
         height: 512
       alignment: 0
@@ -151,11 +154,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Map_Corner
+      name: MapEndWall
       rect:
         serializedVersion: 2
         x: 1024
-        y: 0
+        y: 1024
         width: 512
         height: 512
       alignment: 0
@@ -172,11 +175,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Map_Wall
+      name: MapCorner
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 0
+        x: 0
+        y: 512
         width: 512
         height: 512
       alignment: 0
@@ -193,11 +196,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Map_Blank
+      name: MapPelletPower
       rect:
         serializedVersion: 2
-        x: 2048
-        y: 0
+        x: 512
+        y: 512
         width: 512
         height: 512
       alignment: 0
@@ -214,11 +217,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Map_TLink
+      name: MapWall
       rect:
         serializedVersion: 2
-        x: 2560
-        y: 0
+        x: 1024
+        y: 512
         width: 512
         height: 512
       alignment: 0
@@ -230,6 +233,27 @@ TextureImporter:
       bones: []
       spriteID: 21429a188f93a38f0800000000000000
       internalID: -560071464164187118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MapTLink
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf2e592d81684570800000000000000
+      internalID: 8451111959673057215
       vertices: []
       indices: 
       edges: []

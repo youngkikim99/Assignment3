@@ -1,22 +1,22 @@
 fileFormatVersion: 2
-guid: 9943ff022ec08c14994bfb4ca5faac82
+guid: 68fc101b3db867346a3819a4af5bf35f
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: 2107245682988089756
-    second: Pellet_Norm
+    second: PelletNorm
   - first:
       213: -4668648267439011304
-    second: Pellet_Power
+    second: PelletPower
   - first:
       213: 612808363642527806
-    second: Pellet_PowerFlash
+    second: PelletPowerFlash
   - first:
       213: -3866652110774432891
     second: BonusScore
   - first:
       213: 8548130720314840448
-    second: LifeIndi
+    second: Life
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -47,7 +47,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -83,7 +83,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -95,7 +95,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -106,7 +106,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pellet_Norm
+      name: PelletNorm
       rect:
         serializedVersion: 2
         x: 224
@@ -127,13 +127,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pellet_Power
+      name: PelletPower
       rect:
         serializedVersion: 2
-        x: 720
-        y: 1264
-        width: 112
-        height: 112
+        x: 704
+        y: 1248
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,13 +148,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pellet_PowerFlash
+      name: PelletPowerFlash
       rect:
         serializedVersion: 2
-        x: 208
-        y: 752
-        width: 112
-        height: 112
+        x: 192
+        y: 736
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,7 +190,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LifeIndi
+      name: Life
       rect:
         serializedVersion: 2
         x: 128
