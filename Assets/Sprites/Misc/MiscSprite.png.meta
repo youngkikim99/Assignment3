@@ -3,20 +3,20 @@ guid: 9943ff022ec08c14994bfb4ca5faac82
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5770958956045166959
+      213: 2107245682988089756
     second: Pellet_Norm
   - first:
-      213: -9177418277584700315
+      213: -4668648267439011304
     second: Pellet_Power
   - first:
-      213: 3445910035351170775
-    second: Pellet_PowerShine
+      213: 612808363642527806
+    second: Pellet_PowerFlash
   - first:
-      213: 8671351589016534120
+      213: -3866652110774432891
     second: BonusScore
   - first:
-      213: 173538500886388945
-    second: Life
+      213: 8548130720314840448
+    second: LifeIndi
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -109,10 +109,10 @@ TextureImporter:
       name: Pellet_Norm
       rect:
         serializedVersion: 2
-        x: 14
-        y: 80
-        width: 4
-        height: 4
+        x: 224
+        y: 1280
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -120,8 +120,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f696e6c3890961050800000000000000
-      internalID: 5770958956045166959
+      spriteID: c910bf4b8c07e3d10800000000000000
+      internalID: 2107245682988089756
       vertices: []
       indices: 
       edges: []
@@ -130,10 +130,10 @@ TextureImporter:
       name: Pellet_Power
       rect:
         serializedVersion: 2
-        x: 45
-        y: 79
-        width: 7
-        height: 7
+        x: 720
+        y: 1264
+        width: 112
+        height: 112
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,20 +141,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56cf26953b243a080800000000000000
-      internalID: -9177418277584700315
+      spriteID: 81a0e06e221a53fb0800000000000000
+      internalID: -4668648267439011304
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pellet_PowerShine
+      name: Pellet_PowerFlash
       rect:
         serializedVersion: 2
-        x: 13
-        y: 47
-        width: 7
-        height: 7
+        x: 208
+        y: 752
+        width: 112
+        height: 112
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,8 +162,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7de6f018be452df20800000000000000
-      internalID: 3445910035351170775
+      spriteID: e302d4eb5f1218800800000000000000
+      internalID: 612808363642527806
       vertices: []
       indices: 
       edges: []
@@ -172,10 +172,10 @@ TextureImporter:
       name: BonusScore
       rect:
         serializedVersion: 2
-        x: 41
-        y: 43
-        width: 13
-        height: 13
+        x: 656
+        y: 688
+        width: 208
+        height: 208
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,20 +183,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86c79d1d354d65870800000000000000
-      internalID: 8671351589016534120
+      spriteID: 58b86434464e65ac0800000000000000
+      internalID: -3866652110774432891
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Life
+      name: LifeIndi
       rect:
         serializedVersion: 2
-        x: 8
-        y: 10
-        width: 14
-        height: 12
+        x: 128
+        y: 160
+        width: 224
+        height: 192
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,8 +204,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d0ef2cd858886200800000000000000
-      internalID: 173538500886388945
+      spriteID: 08558f5a99f01a670800000000000000
+      internalID: 8548130720314840448
       vertices: []
       indices: 
       edges: []
