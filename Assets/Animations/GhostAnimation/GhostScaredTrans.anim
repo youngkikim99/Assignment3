@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PacmanLeft
+  m_Name: GhostScaredTrans
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,9 +20,9 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 8163666735425951156, guid: 21185d2bd62f8374c994ea985b8da074, type: 3}
+      value: {fileID: 37733412822709038, guid: bfedacab0218ab94296c0cb7123b7de9, type: 3}
     - time: 0.083333336
-      value: {fileID: -2757200643924813490, guid: 21185d2bd62f8374c994ea985b8da074, type: 3}
+      value: {fileID: -5753498928576233829, guid: bfedacab0218ab94296c0cb7123b7de9, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -42,8 +42,8 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 8163666735425951156, guid: 21185d2bd62f8374c994ea985b8da074, type: 3}
-    - {fileID: -2757200643924813490, guid: 21185d2bd62f8374c994ea985b8da074, type: 3}
+    - {fileID: 37733412822709038, guid: bfedacab0218ab94296c0cb7123b7de9, type: 3}
+    - {fileID: -5753498928576233829, guid: bfedacab0218ab94296c0cb7123b7de9, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
