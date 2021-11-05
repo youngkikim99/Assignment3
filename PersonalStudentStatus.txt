@@ -1,0 +1,9 @@
+10%:Complete
+20%:Complete
+35%:Complete
+50%:Complete
+65%:Complete
+75%: Current Level
+90%:Incomplete
+100%:Incomplete
+
